@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  background: rgb(248, 244, 244)!important;
+}
+
+
+img {
+  height: 80px;
+}
+.cards {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  width: 600px;
+  height: 670px;
+}
+.productsWrappers{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 75px;
+  margin-bottom: 50px;
+  width: 2280px;
+  height: 1300px;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+.btnn {
+  border: none;
+  outline: none;
+  background: #764abc;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnn:hover {
+  
+  background: #513282;
+  /* background-color: red; */
+}
+
+.heading {
+  padding: 25px 0;
+}
+.cartCount {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+.navLink {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.cartCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+}
+.header {
+  background-image: url("../public/Images/Masthead (1).png");
+  width: 2520px;
+  height: 995px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header2 {
+  width: 1440px;
+  height: 1250px;
+}
+.footer {
+  background-image: url("../public/Images/Rectangle\ 12.png");
+  width: 2520px;
+  height: 405px;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.logo {
+  color: rgb(206, 190, 190);
+  width: 131px;
+  height: 25px;
+  margin-left: 31px;
+  margin-top: 31px;
+}
+.nav {
+  color: rgb(241, 224, 224);
+  display: flex;
+  gap: 30px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.navLink {
+  margin-top: 31px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.navLink:hover {
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+}
+.navLink img {
+  height: 24px;
+  width: 24px;
+  margin-right: -20px;
+}
+
+.cartCount {
+  padding-right: 20px;
+  margin-top: 31px;
+}
+
+.grid-filter {
+  grid-template-columns: 0.2fr 2fr !important;
+  display: flex  !important;
+  column-count: 2  !important;
+  column-gap: 60px  !important;
+}
+
+.cards img  {
+  width: 350px;
+  height: 442px;
+}
+
+.product:hover {
+  cursor: pointer;
+background-color: rgba(0, 0, 0, 0.8);
+animation: ease-out;
+
+}
+.pagination {
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 60rem;
+  font-family: inherit;
+  font-size: 200px;
+  font-weight: 2000;
+  width: 600px;
+  height: 300px;
+}
+.pagination-background {
+border-radius: 20px;
+  padding: 0.2px;
+  justify-content: space-between;
+}
+
+.fil-page {
+  width: 150px;
+  height: 375px;
+  gap: 32px
+  ;
+}
+
+.filter-btn {
+  margin-top: 30px;
+  padding: 60px;
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 0px;
+}
+.filter-btn li {
+  padding: 10px;
+  padding-right: 0px;
+}
+.filter-btn button {
+  padding: 10px;
+  padding-right: 0px;
+  width: 100%;
+}
+.filter-btn button:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+.cart-img{
+  width: 160px;
+  height: 234px;
+  margin: 10px;
+}
+.cart-details{
+  margin-left: 70px;
+  margin-right: -80px;
+  padding-top: 20px;
+
+}
+.cards button {
+text-align: center;
+background-color: rgb(165, 193, 193);
+margin-left: -250px;
+}
+.cards button:hover {
+  cursor: pointer;
+  background-color: rgb(39, 206, 206); }
+
+ 
